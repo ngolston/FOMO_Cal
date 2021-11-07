@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+}
+
+:root {
+  --maincolor: hsl(171, 100%, 41%);
+}
+
+.title {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.bannerContent {
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.columns {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+/* Controlling visibility of input fields before user selects a type */
+.otherQuestions {
+  display: none;
+}
+
+.crypto {
+  display: none;
+}
+
+.stocks {
+  display: none;
+}
+
+.stockBtn {
+  display: block;
+}
+
+.cryptoBtn {
+  display: block;
+}
+
+.cryptoCalBtn {
+  display: none;
+}
+
+.stockCalBtn {
+  display: none;
+}
+
+/* Styling non-selected button border */
+.is-inverted {
+  border: 1px solid var(--maincolor) !important;
+}
+
+.card {
+  padding: 1%;
+}
+
+#sub {
+  padding: 1%;
+}
+
+/* Hiding output until calculations submitted */
+#calculation-container {
+  display: none;
+}
+
+/* Styling output cards for calculations and tweet */
+#sub-info div {
+  height: 170px;
+}
+
+#info-twitter .card,
+#sub-info div .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  padding-left: 0;
+}
+
+.card-title {
+  position: absolute;
+  top: 0;
+  font-size: 1.2rem;
+  margin-bottom: 0px !important;
+  width: 100%;
+  background-color: var(--maincolor);
+  height: 2rem;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.card-date {
+  font-size: 0.75rem;
+  margin-top: 10px;
+}
+
+.card-body {
+  font-size: 1.5rem;
+}
+
+.card-tweet {
+  font-size: .9rem;
+}
+
+#info-main {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.on-hover:hover {
+  transform: scale(1.125);
+  box-shadow: 5px 5px 7px darkgray;
+}
+
+/* Footer fixed position and spacing */
+.footer2 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
+  background: var(--maincolor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.copyright {
+  text-align: center;
+}
+
+#blank {
+    height: 60px;
+}
